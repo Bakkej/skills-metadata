@@ -1,0 +1,44 @@
+publiccodeYmlVersion: "0.7"
+name: Metadata skill
+url: https://github.com/Bakkej/skills-metadata
+softwareVersion: "0.1.0"
+softwareType: addon
+platforms:
+  - linux
+  - mac
+  - windows
+developmentStatus: development
+
+description:
+  nl:
+    shortDescription: Agent-skill voor het verkennen van metadata bij datasets, datadiensten en modellen.
+    longDescription: >
+      De Metadata-skill helpt AI-assistenten om bestaande metadata te lezen.
+      De skill volgt verbanden tussen catalogusrecords, datasets, distributies,
+      datadiensten, begrippen, informatiemodellen en technische schema's.
+      De skill herkent onder meer DCAT, CSSV, NL-SBB, MIM, DQV en PROV, legt de
+      herkomst en reikwijdte van bevindingen vast en verwijst naar passende
+      skills voor het lezen van API's, schema's en modellen. De skill schrijft of publiceert geen modellen
+      of metadata en geeft geen conformiteitsverklaring.
+    features:
+      - Verkenning van datacatalogi en hun relaties met modellen en datadiensten
+      - Doorverwijzing naar skills voor het interpreteren van modellen en schema's op basis van de MIM-niveaus
+      - Interpretatie van metadata over kwaliteit en herkomst
+
+legal:
+  license: EUPL-1.2
+  mainCopyrightOwner: Geonovum
+
+intendedAudience:
+  countries:
+    - NL
+  scope:
+    - government
+
+localisation:
+  availableLanguages:
+    - en
+  localisationReady: false
+
+maintenance:
+  type: none
